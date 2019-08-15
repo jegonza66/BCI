@@ -1,0 +1,88 @@
+[6651:6651:0814/113635.137452:ERROR:zygote_communication_linux.cc(292)] Failed to send GetTerminationStatus message to zygote
+[6651:6651:0814/113635.356058:ERROR:zygote_communication_linux.cc(292)] Failed to send GetTerminationStatus message to zygote
+[6651:6651:0814/113635.357068:ERROR:child_process_launcher.cc(522)] Failed to launch child process
+[6651:6651:0814/113637.105680:ERROR:child_process_launcher.cc(522)] Failed to launch child process
+[I 11:41:13.947 LabApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 11:41:14.990 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:41:14.991 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[W 11:41:14.993 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 11:41:14.995 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:41:14.996 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 11:41:14.996 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP1
+[I 11:41:14.996 LabApp] The Jupyter Notebook is running at:
+[I 11:41:14.997 LabApp] http://localhost:8888/?token=aea604635dd8103c8a0fbaa4bc28114ee5ce5c3ca98d48d5
+[I 11:41:14.997 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:41:15.063 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-6968-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=aea604635dd8103c8a0fbaa4bc28114ee5ce5c3ca98d48d5
+[W 11:41:17.461 LabApp] Could not determine jupyterlab build status without nodejs
+[I 11:41:18.833 LabApp] Kernel started: dd552900-9af2-4594-ba19-481b14931f77
+[I 11:41:20.118 LabApp] Adapting to protocol v5.1 for kernel dd552900-9af2-4594-ba19-481b14931f77
+[I 11:41:20.119 LabApp] Adapting to protocol v5.1 for kernel dd552900-9af2-4594-ba19-481b14931f77
+[I 11:42:22.868 LabApp] Saving file at /Guia-1.ipynb
+[I 11:42:29.857 LabApp] Saving file at /Guia-1.ipynb
+[I 11:42:42.100 LabApp] Saving file at /Guia-1.ipynb
+[I 11:44:06.611 LabApp] Kernel interrupted: dd552900-9af2-4594-ba19-481b14931f77
+[I 11:44:31.127 LabApp] Kernel interrupted: dd552900-9af2-4594-ba19-481b14931f77
+[I 11:44:32.958 LabApp] Saving file at /Guia-1.ipynb
+[I 11:46:29.918 LabApp] Saving file at /Guia-1.ipynb
+[I 11:47:16.087 LabApp] Saving file at /Guia-1.ipynb
+[I 11:48:11.096 LabApp] Saving file at /Guia-1.ipynb
+[I 11:49:50.926 LabApp] Starting buffering for dd552900-9af2-4594-ba19-481b14931f77:93c796d3-845e-484f-a5f1-daec7fae3e57
+[I 20:07:01.418 LabApp] The port 8888 is already in use, trying another port.
+[I 20:07:01.421 LabApp] The port 8889 is already in use, trying another port.
+[I 20:07:01.515 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:07:01.516 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 20:07:01.523 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP1
+[I 20:07:01.523 LabApp] The Jupyter Notebook is running at:
+[I 20:07:01.523 LabApp] http://localhost:8890/?token=fdc651b6cd4ab6814032ff063b83b34b21e7162b5536b10f
+[I 20:07:01.523 LabApp]  or http://127.0.0.1:8890/?token=fdc651b6cd4ab6814032ff063b83b34b21e7162b5536b10f
+[I 20:07:01.523 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:07:01.736 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-23906-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=fdc651b6cd4ab6814032ff063b83b34b21e7162b5536b10f
+     or http://127.0.0.1:8890/?token=fdc651b6cd4ab6814032ff063b83b34b21e7162b5536b10f
+[W 20:07:09.977 LabApp] Could not determine jupyterlab build status without nodejs
+[W 20:07:15.109 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:07:15.813 LabApp] Kernel started: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a
+[I 20:07:16.878 LabApp] Adapting from protocol version 5.1 (kernel 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a) to 5.3 (client).
+[I 20:07:16.879 LabApp] Adapting from protocol version 5.1 (kernel 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a) to 5.3 (client).
+[I 20:09:15.442 LabApp] Saving file at /Guia-1.ipynb
+[W 20:09:15.443 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:11:15.625 LabApp] Saving file at /Guia-1.ipynb
+[W 20:11:15.625 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:11:43.162 LabApp] Saving file at /Guia-1.ipynb
+[W 20:11:43.162 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:13:19.992 LabApp] Saving file at /Guia-1.ipynb
+[W 20:13:19.993 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:14:29.894 LabApp] Saving file at /Guia-1.ipynb
+[W 20:14:29.894 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:14:44.369 LabApp] Saving file at /Guia-1.ipynb
+[W 20:14:44.369 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:15:01.374 LabApp] Saving file at /Guia-1.ipynb
+[W 20:15:01.375 LabApp] Notebook Guia-1.ipynb is not trusted
+[I 20:15:34.529 LabApp] Kernel interrupted: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a
+[I 20:17:01.566 LabApp] Saving file at /Guia-1.ipynb
+[I 20:18:05.107 LabApp] Saving file at /Guia-1.ipynb
+[I 20:18:35.539 LabApp] Saving file at /Guia-1.ipynb
+[I 20:18:47.735 LabApp] Saving file at /Guia-1.ipynb
+[I 20:19:36.327 LabApp] Saving file at /Guia-1.ipynb
+[I 20:21:11.140 LabApp] Saving file at /Guia-1.ipynb
+[I 20:21:15.279 LabApp] Saving file at /Guia-1.ipynb
+[I 20:21:28.043 LabApp] Saving file at /Guia-1.ipynb
+[I 20:22:50.471 LabApp] Saving file at /Guia-1.ipynb
+[I 20:23:01.037 LabApp] Saving file at /Guia-1.ipynb
+[I 20:23:40.768 LabApp] Saving file at /Guia-1.ipynb
+[I 20:23:59.588 LabApp] Saving file at /Guia-1.ipynb
+[I 20:24:20.903 LabApp] Kernel interrupted: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a
+[I 20:24:38.417 LabApp] Saving file at /Guia-1.ipynb
+[I 20:25:02.093 LabApp] Saving file at /Guia-1.ipynb
+[I 20:25:03.159 LabApp] Kernel interrupted: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a
+[I 20:25:51.852 LabApp] Saving file at /Guia-1.ipynb
+[I 20:25:53.338 LabApp] Kernel interrupted: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a

@@ -1,0 +1,32 @@
+[I 11:50:10.472 LabApp] The port 8888 is already in use, trying another port.
+[I 11:50:10.481 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:50:10.481 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[W 11:50:10.483 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 11:50:10.484 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:50:10.485 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 11:50:10.485 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP2
+[I 11:50:10.485 LabApp] The Jupyter Notebook is running at:
+[I 11:50:10.485 LabApp] http://localhost:8889/?token=f39f63923f8a7d8d753ab7baa1bc45adac3a640654fd15c8
+[I 11:50:10.485 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:50:10.504 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-7632-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=f39f63923f8a7d8d753ab7baa1bc45adac3a640654fd15c8
+[W 11:50:12.869 LabApp] Could not determine jupyterlab build status without nodejs
+[W 11:50:13.443 LabApp] 404 GET /api/contents/Guia-1.ipynb?content=0&1565794213231 (::1): No such file or directory: Guia-1.ipynb
+[W 11:50:13.443 LabApp] No such file or directory: Guia-1.ipynb
+[W 11:50:13.444 LabApp] 404 GET /api/contents/Guia-1.ipynb?content=0&1565794213231 (::1) 3.31ms referer=http://localhost:8889/lab
+[I 11:50:31.530 LabApp] Creating new notebook in /
+[I 11:50:32.024 LabApp] Kernel started: d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9
+[I 11:50:33.242 LabApp] Adapting to protocol v5.1 for kernel d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9
+[I 11:50:33.242 LabApp] Adapting to protocol v5.1 for kernel d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9
+[I 11:50:33.257 LabApp] Adapting to protocol v5.1 for kernel d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9
+[I 11:52:32.019 LabApp] Saving file at /Guia 2.ipynb
+[I 12:07:32.347 LabApp] Saving file at /Guia 2.ipynb
+[I 12:15:33.376 LabApp] Saving file at /Guia 2.ipynb
+[I 12:16:02.389 LabApp] Saving file at /Guia 2.ipynb
+[I 12:18:02.760 LabApp] Saving file at /Guia 2.ipynb
+[I 12:21:28.587 LabApp] Saving file at /Guia 2.ipynb
+[I 12:21:32.040 LabApp] Saving file at /Guia 2.ipynb
