@@ -91,3 +91,65 @@
 [I 20:29:23.645 LabApp] Saving file at /Guia-1.ipynb
 [I 20:29:33.778 LabApp] Kernel interrupted: 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a
 [I 20:29:48.101 LabApp] Saving file at /Guia-1.ipynb
+[I 20:31:48.391 LabApp] Saving file at /Guia-1.ipynb
+[I 20:33:48.609 LabApp] Saving file at /Guia-1.ipynb
+[I 20:34:19.168 LabApp] Saving file at /Guia-1.ipynb
+[I 20:35:15.892 LabApp] Saving file at /Guia-1.ipynb
+[I 20:37:16.145 LabApp] Saving file at /Guia-1.ipynb
+[I 20:37:36.997 LabApp] Saving file at /Guia-1.ipynb
+[I 20:38:31.845 LabApp] Saving file at /Guia-1.ipynb
+[I 20:40:55.698 LabApp] Saving file at /Guia-1.ipynb
+[I 20:41:36.646 LabApp] Adapting from protocol version 5.1 (kernel 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a) to 5.3 (client).
+[I 20:43:36.327 LabApp] Saving file at /Guia-1.ipynb
+[I 20:44:06.353 LabApp] Saving file at /Guia-1.ipynb
+[I 20:44:29.279 LabApp] Saving file at /Guia-1.ipynb
+[I 20:46:29.495 LabApp] Saving file at /Guia-1.ipynb
+[I 20:47:35.823 LabApp] Saving file at /Guia-1.ipynb
+[I 20:49:36.090 LabApp] Saving file at /Guia-1.ipynb
+[I 20:50:57.870 LabApp] Saving file at /Guia-1.ipynb
+[I 20:52:22.521 LabApp] Saving file at /Guia-1.ipynb
+[I 20:56:23.017 LabApp] Saving file at /Guia-1.ipynb
+[I 20:58:23.274 LabApp] Saving file at /Guia-1.ipynb
+[I 00:10:53.425 LabApp] Saving file at /Guia-1.ipynb
+[I 00:12:54.036 LabApp] Saving file at /Guia-1.ipynb
+[I 10:17:32.410 LabApp] Saving file at /Guia-1.ipynb
+[I 10:19:32.838 LabApp] Saving file at /Guia-1.ipynb
+[I 20:52:41.017 LabApp] Starting buffering for 33fa5790-2991-4a03-8bf3-33bb1a3d9f1a:726481c3-5e73-4ed2-bb32-abab337bf109
+[I 16:49:09.545 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 16:49:09.546 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 16:49:09.554 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP1
+[I 16:49:09.554 LabApp] The Jupyter Notebook is running at:
+[I 16:49:09.554 LabApp] http://localhost:8888/?token=2b0bdfdabc3ecc5a57ebae7dc663d52c5558d61f7f2a1c2a
+[I 16:49:09.555 LabApp]  or http://127.0.0.1:8888/?token=2b0bdfdabc3ecc5a57ebae7dc663d52c5558d61f7f2a1c2a
+[I 16:49:09.555 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:49:09.828 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-2716-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=2b0bdfdabc3ecc5a57ebae7dc663d52c5558d61f7f2a1c2a
+     or http://127.0.0.1:8888/?token=2b0bdfdabc3ecc5a57ebae7dc663d52c5558d61f7f2a1c2a
+[W 16:49:56.385 LabApp] Could not determine jupyterlab build status without nodejs
+[W 16:49:57.024 LabApp] 404 GET /api/contents/Guia%202.ipynb?content=0&1566071397020 (::1): No such file or directory: Guia 2.ipynb
+[W 16:49:57.025 LabApp] No such file or directory: Guia 2.ipynb
+[W 16:49:57.026 LabApp] 404 GET /api/contents/Guia%202.ipynb?content=0&1566071397020 (::1) 1.99ms referer=http://localhost:8888/lab
+[I 16:50:01.922 LabApp] Kernel started: 1ba138a3-b455-49d4-909e-f99e4481b0b3
+[I 16:50:04.669 LabApp] Adapting from protocol version 5.1 (kernel 1ba138a3-b455-49d4-909e-f99e4481b0b3) to 5.3 (client).
+[I 16:50:04.670 LabApp] Adapting from protocol version 5.1 (kernel 1ba138a3-b455-49d4-909e-f99e4481b0b3) to 5.3 (client).
+[I 17:40:09.290 LabApp] Saving file at /Guia-1.ipynb
+[I 17:40:31.215 LabApp] Saving file at /Guia-1.ipynb
+[I 17:41:44.614 LabApp] Saving file at /Guia-1.ipynb
+[I 17:42:40.563 LabApp] Saving file at /Guia-1.ipynb
+[I 17:42:43.272 LabApp] Saving file at /Guia-1.ipynb
+[I 17:43:13.907 LabApp] Saving file at /Guia-1.ipynb
+[I 18:41:21.300 LabApp] Saving file at /Guia-1.ipynb
+[I 18:42:14.164 LabApp] Saving file at /Guia-1.ipynb
+[I 18:42:54.778 LabApp] Saving file at /Guia-1.ipynb
+[I 18:44:22.452 LabApp] Saving file at /Guia-1.ipynb
+[I 18:44:56.722 LabApp] Saving file at /Guia-1.ipynb
+[I 18:45:37.380 LabApp] Saving file at /Guia-1.ipynb
+[I 18:45:52.341 LabApp] Saving file at /Guia-1.ipynb
+[I 18:46:52.829 LabApp] Saving file at /Guia-1.ipynb
+[I 18:47:46.124 LabApp] Saving file at /Guia-1.ipynb
+[I 18:48:23.304 LabApp] Saving file at /Guia-1.ipynb
+[I 19:30:48.201 LabApp] Starting buffering for 1ba138a3-b455-49d4-909e-f99e4481b0b3:a7912f50-0948-4705-af5b-91dabb117ac3

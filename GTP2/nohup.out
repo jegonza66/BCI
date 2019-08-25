@@ -30,3 +30,42 @@
 [I 12:18:02.760 LabApp] Saving file at /Guia 2.ipynb
 [I 12:21:28.587 LabApp] Saving file at /Guia 2.ipynb
 [I 12:21:32.040 LabApp] Saving file at /Guia 2.ipynb
+[I 01:16:00.673 LabApp] Adapting to protocol v5.1 for kernel d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9
+[I 01:16:03.293 LabApp] Starting buffering for d73b2e6c-1b8b-485d-97d9-4e22d32f8fc9:11e4ef8f-1945-40c1-820c-cd89eb95f0ee
+[I 19:30:57.137 LabApp] The port 8888 is already in use, trying another port.
+[I 19:30:57.205 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 19:30:57.205 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 19:30:57.210 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP2
+[I 19:30:57.210 LabApp] The Jupyter Notebook is running at:
+[I 19:30:57.210 LabApp] http://localhost:8889/?token=767d397733e3f3cfc424586ae709994ef19d5f10749d2ec0
+[I 19:30:57.210 LabApp]  or http://127.0.0.1:8889/?token=767d397733e3f3cfc424586ae709994ef19d5f10749d2ec0
+[I 19:30:57.210 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:30:57.367 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-15219-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=767d397733e3f3cfc424586ae709994ef19d5f10749d2ec0
+     or http://127.0.0.1:8889/?token=767d397733e3f3cfc424586ae709994ef19d5f10749d2ec0
+[W 19:30:59.916 LabApp] Could not determine jupyterlab build status without nodejs
+[W 19:31:00.416 LabApp] 404 GET /api/contents/Guia-1.ipynb?content=0&1566081060217 (::1): No such file or directory: Guia-1.ipynb
+[W 19:31:00.416 LabApp] No such file or directory: Guia-1.ipynb
+[W 19:31:00.417 LabApp] 404 GET /api/contents/Guia-1.ipynb?content=0&1566081060217 (::1) 1.96ms referer=http://localhost:8889/lab
+[I 19:31:07.771 LabApp] Kernel started: ad803057-70e6-41af-bfa4-81e9c70b31aa
+[I 19:31:08.452 LabApp] Adapting from protocol version 5.1 (kernel ad803057-70e6-41af-bfa4-81e9c70b31aa) to 5.3 (client).
+[I 19:31:08.453 LabApp] Adapting from protocol version 5.1 (kernel ad803057-70e6-41af-bfa4-81e9c70b31aa) to 5.3 (client).
+[I 19:33:06.099 LabApp] Saving file at /Guia 2.ipynb
+[I 19:35:07.344 LabApp] Saving file at /Guia 2.ipynb
+[I 19:57:50.508 LabApp] Saving file at /Guia 2.ipynb
+[I 21:04:13.269 LabApp] Saving file at /Guia 2.ipynb
+[I 21:04:38.528 LabApp] Saving file at /Guia 2.ipynb
+[I 21:06:38.799 LabApp] Saving file at /Guia 2.ipynb
+[I 21:07:07.879 LabApp] Saving file at /Guia 2.ipynb
+[I 21:09:08.179 LabApp] Saving file at /Guia 2.ipynb
+[I 21:11:08.450 LabApp] Saving file at /Guia 2.ipynb
+[I 21:13:09.407 LabApp] Saving file at /Guia 2.ipynb
+[I 21:15:09.922 LabApp] Saving file at /Guia 2.ipynb
+[I 21:15:23.705 LabApp] Saving file at /Guia 2.ipynb
+[I 21:15:27.386 LabApp] Saving file at /Guia 2.ipynb
+[I 12:53:58.182 LabApp] Starting buffering for ad803057-70e6-41af-bfa4-81e9c70b31aa:d43508d6-2155-4140-955c-3b080c07db95
+The X11 connection broke (error 1). Did the X11 server die?

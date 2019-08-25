@@ -18,30 +18,38 @@ os.chdir(wd)
 
 #%% DEFINICINO FUNCIONES
 
+def index(data, valor):
+	index = np.where(np.asarray(data) == valor)[0][0]
+	return index
+
 def butter_bandpass_filter(data, frecuencias, sampling_freq, order, axis):
 	frecuencias = [frecuencias[i]/(sampling_freq/2) for i in range(len(frecuencias))]
 	b, a = signal.butter(order, frecuencias, btype='band')
 	y = signal.filtfilt(b, a, data, axis = axis, padlen = None)
 	return y
 
-def find_indexes_MI(nombre, stim_codes, canales, path = 'Datos/MI_S01'):
+
+def find_indexes_MI(nombre, stim_codes, wanted_channels, path = 'Datos/MI_S01'):
 	
 	data = spio.loadmat('{}/{}.mat'.format(path, nombre))
 	sample_time = data['sampleTime']
 	sampling_freq = data['samplingFreq'][0][0]
 	stims = data['stims']
 	muestras = np.transpose(data['samples'])
-	channels = [data['channelNames'][0][i][0]for i in range(len(data['channelNames'][0]))]
+	original_channels = [data['channelNames'][0][i][0]for i in range(len(data['channelNames'][0]))]
 	
-	if canales:
-		samples = {}
-		for i, channel in enumerate(channels):
-			if channel in canales:
+	if wanted_channels:
+		samples = []
+		channels = []
+		for i, channel in enumerate(original_channels):
+			if channel in wanted_channels:
 				samples.append(muestras[i])
+				channels.append(channel)
 		samples = np.transpose(samples)
 	else:
 		samples = np.transpose(muestras)
-	
+		channels = original_channels
+		
 	stim_indexes = []
 	stim_labels = []
 	for i in range(len(stims[:,0])):
@@ -49,24 +57,30 @@ def find_indexes_MI(nombre, stim_codes, canales, path = 'Datos/MI_S01'):
 			stim_indexes.append(int(stims[i,0]*sampling_freq))
 			stim_labels.append(stims[i,1])
 			
-	return stim_indexes, stim_labels, samples, sampling_freq
+	return stim_indexes, stim_labels, samples, channels, sampling_freq
 
-def extract_trial_MI(nombres, stim_codes, canales, orden_filtro, frecuencias, downsample):
+
+def extract_trial_MI(nombres, stim_codes, wanted_channels, orden_filtro, frecuencias, downsample):
 	trials = []
 	stim_labels_final = []
 	
 	for nombre in nombres:
-		stim_indexes, stim_labels, samples, sampling_freq = find_indexes_MI(nombre, stim_codes, canales)
+		stim_indexes, stim_labels, samples, channels, sampling_freq = find_indexes_MI(nombre, stim_codes, wanted_channels)
 		stim_labels_final.extend(stim_labels)
-	
-		for i in stim_indexes:
-			trials.append(butter_bandpass_filter(samples[i-3*sampling_freq:i+5*sampling_freq], frecuencias, sampling_freq, orden_filtro, 0))
-	
+		
+		if orden_filtro:
+			for i in stim_indexes:
+				trials.append(butter_bandpass_filter(samples[i-3*sampling_freq:i+5*sampling_freq], frecuencias, sampling_freq, orden_filtro, axis = 0))
+				
+		else:
+			for i in stim_indexes:
+				trials.append(samples[i-3*sampling_freq:i+5*sampling_freq])
+				
 	if downsample > 1:
 		for i in range(len(trials)):
 			trials[i] = trials[i][::int(downsample)]
 	
-	return trials, stim_labels_final
+	return trials, stim_labels_final, channels, sampling_freq
 	
 	
 def find_indexes_P300(nombre, path='Datos/P300_S01'):
@@ -89,8 +103,8 @@ def find_indexes_P300(nombre, path='Datos/P300_S01'):
 
 	return stim_indexes, stim_labels, samples
 
+
 def extract_trial_P300(nombres, orden_filtro, frecuencias, downsample):
-	trials = {}
 	sampling_freq = 256
 	
 	trials =[]
@@ -100,7 +114,7 @@ def extract_trial_P300(nombres, orden_filtro, frecuencias, downsample):
 		stim_labels_final.extend(stim_labels)
 		
 		for i in stim_indexes:
-			trials.append(butter_bandpass_filter(samples[i:i+sampling_freq], frecuencias, sampling_freq, orden_filtro, 0))
+			trials.append(butter_bandpass_filter(samples[i:i+sampling_freq], frecuencias, sampling_freq, orden_filtro, axis = 0))
 	
 	if downsample > 1:
 		for i in range(len(trials)):
@@ -165,24 +179,115 @@ dynamic_plot(trials_P300, target_indexes, non_target_indexes)
 
 nombres = ['S01_FILT_S1R1', 'S01_FILT_S1R2', 'S01_FILT_S1R3', 'S01_FILT_S1R4']
 stim_codes = [770, 772]
-canales = '’F5’;’F3’;’F1’;’Fz’;’F2’;’F4’;’F6’;’FC5’;’FC3’;’FC1’;’FCz’;’FC2’;’FC4’;’FC6’;’C5’;’C3’;’C1’;’Cz’;’C2’;’C4’;’C6’;’CP5’;’CP3’;’CP1’;’CPz’;’CP2’;’CP4’;’CP6’'.replace(';',',').replace(' ', '').replace('’', '').split(',')   
+wanted_channels = '’F5’;’F3’;’F1’;’Fz’;’F2’;’F4’;’F6’;’FC5’;’FC3’;’FC1’;’FCz’;’FC2’;’FC4’;’FC6’;’C5’;’C3’;’C1’;’Cz’;’C2’;’C4’;’C6’;’CP5’;’CP3’;’CP1’;’CPz’;’CP2’;’CP4’;’CP6’'.replace(';',',').replace(' ', '').replace('’', '').split(',')   
 orden_filtro = 2
 frecuencias = [0.1, 40]
 downsample = 1
-trials_MI, stim_labels = extract_trial_MI(nombres, stim_codes, canales, orden_filtro, frecuencias, downsample)
+trials_MI, stim_labels, channels, sampling_freq = extract_trial_MI(nombres, stim_codes, wanted_channels, orden_filtro, frecuencias, downsample)
 
-trials_MI_8_11 = [butter_bandpass_filter(trials_MI[i], [8, 11], 512, 2, 0)**2 for i in range(len(trials_MI))]
-trials_MI_26_30 = [butter_bandpass_filter(trials_MI[i], [26, 30], 512, 2, 0)**2 for i in range(len(trials_MI))]
+tiempo = [i/sampling_freq-3 for i in range(len(trials_MI[0]))]
+plot_channels = ['C3']
+frecuencies = [[8, 11], [26, 30]]
+for channel in plot_channels:
+	for frecuencia in frecuencies:
+		for stimulus in stim_codes:
+			trials = [abs(butter_bandpass_filter(trials_MI[i], frecuencia, 512, 2, axis = 0)) for i in range(len(trials_MI))]
+			indexes = get_indexes(stim_labels, stimulus)
+			channels_final = channel_means(trials, indexes)
+			plt.figure()
+			plt.grid()
+			plt.title('Channel: {} - Stimulus: {} - Frecuencies: {}-{}'.format(channel, stimulus,frecuencia[0], frecuencia[1]))
+			plt.plot(tiempo, channels_final[index(channels, channel)])
+			plt.xlabel('time [s]')
+			plt.ylabel('Tension [?]')
 
-indexes_770 = get_indexes(stim_labels, 770)
-indexes_772 = get_indexes(stim_labels, 772)
+#%% SSVEP
+		
+from numpy.fft import fft, fftfreq
 
-for j in [indexes_770, indexes_772]:
-	for trials in [trials_MI_8_11, trials_MI_26_30]:
-		channels_final = channel_means(trials, j)
-		plt.figure()
-		plt.plot(channels_final[14])
-		plt.figure()
-		plt.plot(channels_final[16])
+nombres = ['OFFLINE_subj1']
+labels_file_name = 'labels'
+stim_codes = [1, 2, 3, 4]
+occipital_channels = ['EOGL', 'EOGR', 'EOGC']	
+sampling_freq = 1000
 
+
+def SSVEP(nombres, labels_file_name, stim_codes, occipital_channels, sampling_freq, path = 'Datos/SSVEP'):
+			
+	###---------------- LOAD DATA --------------------###
+			
+	labels = spio.loadmat('{}/{}.mat'.format(path, labels_file_name))
+	channel_names = [labels['labels'][i][0][0] for i in range(len(labels['labels']))]
+	
+	for nombre in nombres:
+		data = spio.loadmat('{}/{}.mat'.format(path, nombre))
+		stim = [data['circle_order'][i][0] for i in range(len(data['circle_order']))]
+	
+	###----------- GET STIMULUS INDEXES -------------###
+		stim_indexes = {}
+		for i in stim_codes:
+			stim_indexes[i] = [j for j in range(len(stim)) if stim[j] == i]
+		
+	###----------- GET DESIRED CHANNELS -------------###	
+		indices_occipitales = []
+		
+		for j in range(len(occipital_channels)):
+			for i in range(len(channel_names)):
+				if (channel_names[i] == occipital_channels[j]):
+					indices_occipitales.append(i)
+		
+		data_occipitales = {}
+		for i, channel in zip(indices_occipitales, occipital_channels):
+			data_occipitales[channel] = np.transpose(data['data_matrix'][i])
+	
+	###----------- FOURIER TRANSFORM DATA -----------###
+		espectro_data = {}
+		for channel in occipital_channels:
+			espectro_data[channel] = fft(data_occipitales[channel], axis = 1)
+			
+		frequencies = fftfreq(len(espectro_data[occipital_channels[0]][0]), d=1/sampling_freq)
+	
+	###----- MEAN FOR STIMULUS TYPE AND CHANNEL -----###
+		mean_espectro = {}
+		for channel in occipital_channels:
+			canal = {}
+			for i in stim_indexes.keys():
+				estimulo = []
+				for k in range(len(espectro_data[channel][0])):
+					muestra = []
+					for j in stim_indexes[i]:
+						muestra.append(espectro_data[channel][j][k])
+					estimulo.append(np.mean(muestra))
+				canal[i] = estimulo
+			mean_espectro[channel] = canal
+	
+	return mean_espectro, frequencies
+
+mean_espectro, frequencies = SSVEP(nombres, labels_file_name, stim_codes, occipital_channels, sampling_freq)
+		
+plot_frequencies = frequencies[index(frequencies, 4): index(frequencies, 16)]
+
+plot_spectrum = {}
+for channel in occipital_channels:
+	channel_data = {}
+	for stim in stim_codes:
+		channel_data[stim] = mean_espectro[channel][stim][index(frequencies, 4): index(frequencies, 16)]
+	plot_spectrum[channel] = channel_data
+
+###------------------ PLOT --------------------###
+for i in stim_codes:
+	plt.figure()
+	plt.grid()
+	plt.title('Estímulo: {}'.format(i))
+	plt.xlabel('Frecuencia [Hz]')
+	plt.ylabel('Amplitud')
+	plt.plot(plot_frequencies, np.abs(plot_spectrum['EOGL'][i]))
+	
+		
+	
+		
+		
+		
+		
+		
 	
