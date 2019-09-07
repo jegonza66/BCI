@@ -214,8 +214,7 @@ sampling_freq = 1000
 
 def SSVEP(nombres, labels_file_name, stim_codes, occipital_channels, sampling_freq, path = 'Datos/SSVEP'):
 			
-	###---------------- LOAD DATA --------------------###
-			
+	###---------------- LOAD DATA --------------------###		
 	labels = spio.loadmat('{}/{}.mat'.format(path, labels_file_name))
 	channel_names = [labels['labels'][i][0][0] for i in range(len(labels['labels']))]
 	

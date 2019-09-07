@@ -258,7 +258,7 @@ datos = np.swapaxes(data['Data'], 0, 2)
 labels = np.ravel(data['labels'][0])
 sf = data['sf'][0][0]
 tiempo = [i/sf for i in range(len(datos[0][0]))]
-datos_filt = abs(butter_bandpass_live(datos, [8,30], sf, 5, axis = 2))
+datos_filt = butter_bandpass_live(datos, [8,30], sf, 5, axis = 2)
 
 channel_names = [data['Channels'][i][0][0]for i in range(len(data['Channels']))]
 tipos = ['eeg' for i in range(len(channel_names))]

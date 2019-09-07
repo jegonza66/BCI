@@ -324,7 +324,7 @@ datos = np.swapaxes(datos,0,2)
 datos_filt = {}
 frecuencias = [[4,8], [8, 12], [13, 30]]
 for frecuencia in frecuencias:
-	datos_filt[str(frecuencia)] = abs(butter_bandpass_filter(datos, frecuencia, sampling_freq, 2, axis = 2)) 
+	datos_filt[str(frecuencia)] = butter_bandpass_filter(datos, frecuencia, sampling_freq, 2, axis = 2)
 
 labels = data['etiquetas'][0]
 channel_names = [data['ChannelNames'][i][0][0]for i in range(len(data['ChannelNames']))]
@@ -452,6 +452,4 @@ for i in range(200):
 	ax3.clear()
 	mne.viz.plot_topomap(M[i][:-3], np.array(channel_pos)[:-3], axes = ax3)
 	plt.pause(0.05)
-	
-	
 	

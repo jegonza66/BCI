@@ -84,3 +84,33 @@ IndentationError: unindent does not match any outer indentation level
 [I 18:41:14.848 LabApp] Starting buffering for 287ace9f-3525-4ad3-b436-a6f46dadfc94:b09ff9ba-10ca-49ed-b1f0-c795449ad52e
 [I 18:41:14.848 LabApp] Starting buffering for 97a26875-16a7-422a-8c39-946aeb469183:ab7a33b3-def1-408b-a85d-93722d5d5521
 [I 18:41:14.849 LabApp] Starting buffering for a6c02891-64a8-417e-b63a-107d2be2ade3:67abfc8c-e94c-4b75-8110-81cd8724509a
+[I 20:05:40.404 LabApp] The port 8888 is already in use, trying another port.
+[I 20:05:40.405 LabApp] The port 8889 is already in use, trying another port.
+[I 20:05:40.490 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:05:40.490 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 20:05:40.492 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías
+[I 20:05:40.493 LabApp] The Jupyter Notebook is running at:
+[I 20:05:40.493 LabApp] http://localhost:8890/?token=4bd7d1942ea37e4a61201ddfee855546213937da60aabb8a
+[I 20:05:40.493 LabApp]  or http://127.0.0.1:8890/?token=4bd7d1942ea37e4a61201ddfee855546213937da60aabb8a
+[I 20:05:40.493 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:05:40.660 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-23274-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=4bd7d1942ea37e4a61201ddfee855546213937da60aabb8a
+     or http://127.0.0.1:8890/?token=4bd7d1942ea37e4a61201ddfee855546213937da60aabb8a
+[W 20:05:44.569 LabApp] Could not determine jupyterlab build status without nodejs
+[W 20:05:46.059 LabApp] Notebook GTP1/Guia_1.ipynb is not trusted
+[I 20:05:47.214 LabApp] Kernel started: 8e9d7863-83e3-4dc3-b86b-32806da7c864
+[I 20:05:47.265 LabApp] Kernel started: 56ba616b-aa3a-4762-a68a-3a12557b85c2
+[I 20:05:47.289 LabApp] Kernel started: b8933dde-87a7-4af1-beb4-3f60afd70a85
+[I 20:08:40.741 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 20:09:42.482 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 20:10:12.513 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 20:12:12.991 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 20:12:36.430 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 20:13:08.096 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 20:13:17.987 LabApp] Starting buffering for 8e9d7863-83e3-4dc3-b86b-32806da7c864:afe62ba3-2b86-4eb8-8921-3a6b3f947d14
+[I 20:13:17.990 LabApp] Starting buffering for b8933dde-87a7-4af1-beb4-3f60afd70a85:6e94672b-7193-4d55-bdb7-600b048d9990
+[I 20:13:17.992 LabApp] Starting buffering for 56ba616b-aa3a-4762-a68a-3a12557b85c2:3f1623ab-992f-4111-986d-1a1be58eed69
