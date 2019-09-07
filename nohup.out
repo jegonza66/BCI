@@ -1,0 +1,86 @@
+Spyder is already running. If you want to open a new 
+instance, please pass to it the --new-instance option
+[I 16:21:13.839 LabApp] The port 8888 is already in use, trying another port.
+[I 16:21:13.929 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 16:21:13.929 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 16:21:13.935 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías
+[I 16:21:13.935 LabApp] The Jupyter Notebook is running at:
+[I 16:21:13.935 LabApp] http://localhost:8889/?token=0eea8310e1f668c7a0c900a8f49a8c62188e569248d7e8cc
+[I 16:21:13.935 LabApp]  or http://127.0.0.1:8889/?token=0eea8310e1f668c7a0c900a8f49a8c62188e569248d7e8cc
+[I 16:21:13.935 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:21:14.340 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-17258-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=0eea8310e1f668c7a0c900a8f49a8c62188e569248d7e8cc
+     or http://127.0.0.1:8889/?token=0eea8310e1f668c7a0c900a8f49a8c62188e569248d7e8cc
+[W 16:21:23.457 LabApp] Could not determine jupyterlab build status without nodejs
+[W 16:21:23.781 LabApp] 404 GET /api/contents/Guia_2.ipynb?content=0&1567884083768 (::1): No such file or directory: Guia_2.ipynb
+[W 16:21:23.782 LabApp] No such file or directory: Guia_2.ipynb
+[W 16:21:23.783 LabApp] 404 GET /api/contents/Guia_2.ipynb?content=0&1567884083768 (::1) 2.65ms referer=http://localhost:8889/lab
+[W 16:21:31.513 LabApp] Notebook GTP1/Guia-1.ipynb is not trusted
+[I 16:21:33.304 LabApp] Kernel started: a6c02891-64a8-417e-b63a-107d2be2ade3
+[I 16:21:40.284 LabApp] Kernel started: 97a26875-16a7-422a-8c39-946aeb469183
+[I 16:22:03.190 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 272, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 735, in run
+    value = future.result()
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 209, in wrapper
+    yielded = next(result)
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 601, in inspect_request
+    content.get('detail_level', 0),
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 402, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/IPython/utils/tokenutil.py", line 80, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/joaco/anaconda3/lib/python3.7/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/home/joaco/anaconda3/lib/python3.7/tokenize.py", line 572, in _tokenize
+    ("<tokenize>", lnum, pos, line))
+  File "<tokenize>", line 29
+    fig1 = plt.figure()
+    ^
+IndentationError: unindent does not match any outer indentation level
+[I 16:24:03.932 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:26:04.533 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:26:53.139 LabApp] Kernel interrupted: 97a26875-16a7-422a-8c39-946aeb469183
+[I 16:27:10.301 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:28:05.442 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:30:05.929 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:30:18.159 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:30:23.971 LabApp] Saving file at /GTP2/Guia_2.ipynb
+[I 16:30:33.454 LabApp] Creating new notebook in /GTP3
+[I 16:30:34.299 LabApp] Kernel started: 287ace9f-3525-4ad3-b436-a6f46dadfc94
+[I 16:32:34.120 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:32:53.292 LabApp] Kernel interrupted: 287ace9f-3525-4ad3-b436-a6f46dadfc94
+[I 16:34:34.474 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:38:23.721 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:38:29.977 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:38:37.156 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:38:39.909 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:38:43.090 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:51:30.623 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:53:30.888 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:55:31.210 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:57:32.052 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 16:58:16.304 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 17:00:16.547 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 17:04:57.776 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 17:05:41.985 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 17:06:21.553 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 17:08:07.828 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:12:20.413 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:14:20.832 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:14:26.524 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:16:26.735 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:20:27.040 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:20:47.361 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:40:34.175 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:41:01.737 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 18:41:14.848 LabApp] Starting buffering for 287ace9f-3525-4ad3-b436-a6f46dadfc94:b09ff9ba-10ca-49ed-b1f0-c795449ad52e
+[I 18:41:14.848 LabApp] Starting buffering for 97a26875-16a7-422a-8c39-946aeb469183:ab7a33b3-def1-408b-a85d-93722d5d5521
+[I 18:41:14.849 LabApp] Starting buffering for a6c02891-64a8-417e-b63a-107d2be2ade3:67abfc8c-e94c-4b75-8110-81cd8724509a

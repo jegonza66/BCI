@@ -1,0 +1,6 @@
+[29606:29606:0830/075053.428627:ERROR:zygote_communication_linux.cc(292)] Failed to send GetTerminationStatus message to zygote
+[29606:29606:0830/075053.493547:ERROR:child_process_launcher.cc(522)] Failed to launch child process
+[29606:29606:0830/075053.496187:ERROR:zygote_communication_linux.cc(292)] Failed to send GetTerminationStatus message to zygote
+[29606:29606:0830/075054.008411:ERROR:child_process_launcher.cc(522)] Failed to launch child process
+The X11 connection broke (error 1). Did the X11 server die?
+The X11 connection broke (error 1). Did the X11 server die?

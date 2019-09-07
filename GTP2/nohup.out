@@ -69,3 +69,140 @@
 [I 21:15:27.386 LabApp] Saving file at /Guia 2.ipynb
 [I 12:53:58.182 LabApp] Starting buffering for ad803057-70e6-41af-bfa4-81e9c70b31aa:d43508d6-2155-4140-955c-3b080c07db95
 The X11 connection broke (error 1). Did the X11 server die?
+[I 19:51:17.180 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 19:51:17.181 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 19:51:17.187 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías/GTP2
+[I 19:51:17.187 LabApp] The Jupyter Notebook is running at:
+[I 19:51:17.187 LabApp] http://localhost:8888/?token=461e090c38b3d9bdbe9f264a7cd6e151f124fc64e7f8a928
+[I 19:51:17.187 LabApp]  or http://127.0.0.1:8888/?token=461e090c38b3d9bdbe9f264a7cd6e151f124fc64e7f8a928
+[I 19:51:17.188 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:51:17.395 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-24579-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=461e090c38b3d9bdbe9f264a7cd6e151f124fc64e7f8a928
+     or http://127.0.0.1:8888/?token=461e090c38b3d9bdbe9f264a7cd6e151f124fc64e7f8a928
+[W 19:51:20.595 LabApp] Could not determine jupyterlab build status without nodejs
+[W 19:51:21.120 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close?1567810280998 (::1): No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close
+[W 19:51:21.121 LabApp] No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close
+[W 19:51:21.121 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close?1567810280998 (::1) 1.48ms referer=http://localhost:8888/lab
+[W 19:51:21.123 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/Tp.ipynb?content=0&1567810281000 (::1): No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/Tp.ipynb
+[W 19:51:21.123 LabApp] No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/Tp.ipynb
+[W 19:51:21.124 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/Tp.ipynb?content=0&1567810281000 (::1) 2.17ms referer=http://localhost:8888/lab
+[W 19:51:21.124 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/trained-player.ipynb?content=0&1567810281002 (::1): No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/trained-player.ipynb
+[W 19:51:21.124 LabApp] No such file or directory: Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/trained-player.ipynb
+[W 19:51:21.125 LabApp] 404 GET /api/contents/Desktop/joaco/facultad/ECI/DRL/eci2019-DRL-master/ejercicio/empty_goal_close/trained-player.ipynb?content=0&1567810281002 (::1) 1.98ms referer=http://localhost:8888/lab
+[I 19:54:18.282 LabApp] Kernel started: 97057799-d932-4451-b81f-21d52691cfab
+[I 19:56:17.918 LabApp] Saving file at /Guia_2.ipynb
+[I 19:58:18.376 LabApp] Saving file at /Guia_2.ipynb
+[I 20:01:23.366 LabApp] Saving file at /Guia_2.ipynb
+[I 20:03:23.964 LabApp] Saving file at /Guia_2.ipynb
+[I 20:05:24.424 LabApp] Saving file at /Guia_2.ipynb
+[I 20:06:45.241 LabApp] Saving file at /Guia_2.ipynb
+[I 20:07:12.573 LabApp] Saving file at /Guia_2.ipynb
+[I 20:09:12.981 LabApp] Saving file at /Guia_2.ipynb
+[I 20:11:13.964 LabApp] Saving file at /Guia_2.ipynb
+[I 20:15:14.975 LabApp] Saving file at /Guia_2.ipynb
+[I 20:22:17.888 LabApp] Saving file at /Guia_2.ipynb
+[I 20:22:35.103 LabApp] Saving file at /Guia_2.ipynb
+[I 20:24:35.977 LabApp] Saving file at /Guia_2.ipynb
+[I 20:26:36.394 LabApp] Saving file at /Guia_2.ipynb
+[I 20:28:36.945 LabApp] Saving file at /Guia_2.ipynb
+[I 20:33:21.727 LabApp] Saving file at /Guia_2.ipynb
+[I 20:35:22.225 LabApp] Saving file at /Guia_2.ipynb
+[I 20:37:22.665 LabApp] Saving file at /Guia_2.ipynb
+[I 20:39:23.042 LabApp] Saving file at /Guia_2.ipynb
+[I 20:41:23.490 LabApp] Saving file at /Guia_2.ipynb
+[I 20:43:23.889 LabApp] Saving file at /Guia_2.ipynb
+[I 20:45:24.972 LabApp] Saving file at /Guia_2.ipynb
+[I 20:49:26.005 LabApp] Saving file at /Guia_2.ipynb
+[I 20:51:05.011 LabApp] Saving file at /Guia_2.ipynb
+[I 20:53:05.415 LabApp] Saving file at /Guia_2.ipynb
+[I 21:03:06.985 LabApp] Saving file at /Guia_2.ipynb
+[I 21:03:09.145 LabApp] Saving file at /Guia_2.ipynb
+[I 21:05:09.573 LabApp] Saving file at /Guia_2.ipynb
+[I 21:06:22.151 LabApp] Saving file at /Guia_2.ipynb
+[I 21:06:43.320 LabApp] Saving file at /Guia_2.ipynb
+[I 21:06:53.718 LabApp] Saving file at /Guia_2.ipynb
+[I 21:07:02.969 LabApp] Saving file at /Guia_2.ipynb
+[I 21:09:03.395 LabApp] Saving file at /Guia_2.ipynb
+[I 21:11:04.025 LabApp] Saving file at /Guia_2.ipynb
+[I 21:18:20.162 LabApp] Saving file at /Guia_2.ipynb
+[I 21:18:54.017 LabApp] Saving file at /Guia_2.ipynb
+[I 22:52:17.310 LabApp] Saving file at /Guia_2.ipynb
+[I 22:52:31.584 LabApp] Saving file at /Guia_2.ipynb
+[I 22:54:25.046 LabApp] Saving file at /Guia_2.ipynb
+[I 22:55:30.034 LabApp] Saving file at /Guia_2.ipynb
+[I 22:57:30.512 LabApp] Saving file at /Guia_2.ipynb
+[I 22:57:37.160 LabApp] Saving file at /Guia_2.ipynb
+[I 22:59:38.115 LabApp] Saving file at /Guia_2.ipynb
+[I 23:01:39.019 LabApp] Saving file at /Guia_2.ipynb
+[I 23:03:39.553 LabApp] Saving file at /Guia_2.ipynb
+[I 23:03:49.393 LabApp] Saving file at /Guia_2.ipynb
+[I 23:43:51.031 LabApp] Saving file at /Guia_2.ipynb
+[I 23:45:51.801 LabApp] Saving file at /Guia_2.ipynb
+[I 23:46:05.892 LabApp] Saving file at /Guia_2.ipynb
+[I 23:46:12.133 LabApp] Saving file at /Guia_2.ipynb
+[I 12:26:05.061 LabApp] Saving file at /Guia_2.ipynb
+[I 12:28:05.961 LabApp] Saving file at /Guia_2.ipynb
+[I 12:40:08.001 LabApp] Saving file at /Guia_2.ipynb
+[I 12:42:08.476 LabApp] Saving file at /Guia_2.ipynb
+[I 12:44:09.004 LabApp] Saving file at /Guia_2.ipynb
+[I 12:46:09.422 LabApp] Saving file at /Guia_2.ipynb
+[I 12:46:14.027 LabApp] Saving file at /Guia_2.ipynb
+[I 12:48:14.425 LabApp] Saving file at /Guia_2.ipynb
+[I 12:56:14.845 LabApp] Saving file at /Guia_2.ipynb
+[I 12:58:15.286 LabApp] Saving file at /Guia_2.ipynb
+[I 13:00:15.750 LabApp] Saving file at /Guia_2.ipynb
+[I 13:02:16.287 LabApp] Saving file at /Guia_2.ipynb
+[I 13:04:08.632 LabApp] Saving file at /Guia_2.ipynb
+[I 13:06:09.120 LabApp] Saving file at /Guia_2.ipynb
+[I 13:06:10.383 LabApp] Saving file at /Guia_2.ipynb
+[I 13:08:10.922 LabApp] Saving file at /Guia_2.ipynb
+[I 13:11:24.851 LabApp] Saving file at /Guia_2.ipynb
+[I 13:13:21.840 LabApp] Saving file at /Guia_2.ipynb
+[I 13:15:22.400 LabApp] Saving file at /Guia_2.ipynb
+[I 13:17:22.863 LabApp] Saving file at /Guia_2.ipynb
+[I 13:19:23.362 LabApp] Saving file at /Guia_2.ipynb
+[I 13:21:23.922 LabApp] Saving file at /Guia_2.ipynb
+[I 13:23:24.536 LabApp] Saving file at /Guia_2.ipynb
+[I 13:25:25.077 LabApp] Saving file at /Guia_2.ipynb
+[I 13:27:04.496 LabApp] Saving file at /Guia_2.ipynb
+[I 13:29:05.303 LabApp] Saving file at /Guia_2.ipynb
+[I 13:33:07.015 LabApp] Saving file at /Guia_2.ipynb
+[I 13:35:07.636 LabApp] Saving file at /Guia_2.ipynb
+[I 13:36:47.626 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 13:37:08.138 LabApp] Saving file at /Guia_2.ipynb
+[I 13:37:36.092 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 13:38:59.632 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 13:39:08.657 LabApp] Saving file at /Guia_2.ipynb
+[I 13:40:51.932 LabApp] Saving file at /Guia_2.ipynb
+[I 13:41:34.515 LabApp] Saving file at /Guia_2.ipynb
+[I 13:45:35.070 LabApp] Saving file at /Guia_2.ipynb
+[I 13:51:37.045 LabApp] Saving file at /Guia_2.ipynb
+[I 13:52:01.985 LabApp] Saving file at /Guia_2.ipynb
+[I 13:52:11.423 LabApp] Saving file at /Guia_2.ipynb
+[I 13:53:25.980 LabApp] Saving file at /Guia_2.ipynb
+[I 13:54:29.225 LabApp] Saving file at /Guia_2.ipynb
+[I 13:56:30.000 LabApp] Saving file at /Guia_2.ipynb
+[I 15:42:43.815 LabApp] Saving file at /Guia_2.ipynb
+[I 15:44:44.663 LabApp] Saving file at /Guia_2.ipynb
+[I 15:45:16.785 LabApp] Saving file at /Guia_2.ipynb
+[I 15:47:18.027 LabApp] Saving file at /Guia_2.ipynb
+[I 15:48:47.201 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 15:48:49.075 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 15:49:19.044 LabApp] Saving file at /Guia_2.ipynb
+[I 15:52:28.363 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 15:53:21.039 LabApp] Saving file at /Guia_2.ipynb
+[I 16:04:01.837 LabApp] Saving file at /Guia_2.ipynb
+[I 16:05:10.459 LabApp] Kernel interrupted: 97057799-d932-4451-b81f-21d52691cfab
+[I 16:06:02.386 LabApp] Saving file at /Guia_2.ipynb
+[I 16:08:49.522 LabApp] Saving file at /Guia_2.ipynb
+[I 16:10:50.064 LabApp] Saving file at /Guia_2.ipynb
+[I 16:14:50.565 LabApp] Saving file at /Guia_2.ipynb
+[I 16:16:51.049 LabApp] Saving file at /Guia_2.ipynb
+[I 16:18:52.062 LabApp] Saving file at /Guia_2.ipynb
+[I 16:19:33.875 LabApp] Saving file at /Guia_2.ipynb
+[I 16:21:35.067 LabApp] Saving file at /Guia_2.ipynb
+[I 16:22:00.998 LabApp] Starting buffering for 97057799-d932-4451-b81f-21d52691cfab:aa35550f-de83-49f3-8151-ffde50e68637
