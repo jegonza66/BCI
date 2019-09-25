@@ -339,7 +339,7 @@ for frecuencia  in range(len(frecuencias)):
 	eeg_temp = eeg.get_data()
 	
 ###------ CSP CON AVERAGE POWER Y LO -> QUE DEVUELVE LAS FEATURES EN VEZ DE LOS Z------###
-	csp = CSP(n_components=22, reg=0.5, log=True, transform_into='average_power')
+	csp = CSP(n_components=22, log=True, transform_into='average_power')
 	eeg_CSP = csp.fit_transform(eeg_temp, labels)
 	
 ###---- ME QUEDO LOS PRIMEROS Y UTIMOS 3 CANALES QUE SON LAS FEATURES QUE MAS DIFERENCIAN LAS CLASES---###

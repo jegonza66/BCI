@@ -114,3 +114,59 @@ IndentationError: unindent does not match any outer indentation level
 [I 20:13:17.987 LabApp] Starting buffering for 8e9d7863-83e3-4dc3-b86b-32806da7c864:afe62ba3-2b86-4eb8-8921-3a6b3f947d14
 [I 20:13:17.990 LabApp] Starting buffering for b8933dde-87a7-4af1-beb4-3f60afd70a85:6e94672b-7193-4d55-bdb7-600b048d9990
 [I 20:13:17.992 LabApp] Starting buffering for 56ba616b-aa3a-4762-a68a-3a12557b85c2:3f1623ab-992f-4111-986d-1a1be58eed69
+[I 00:07:14.609 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 00:07:14.609 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 00:07:14.616 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías
+[I 00:07:14.616 LabApp] The Jupyter Notebook is running at:
+[I 00:07:14.617 LabApp] http://localhost:8888/?token=39d3e19e4436d035a8abc8bf7b4c23b5c55d9dbb7a09cfff
+[I 00:07:14.617 LabApp]  or http://127.0.0.1:8888/?token=39d3e19e4436d035a8abc8bf7b4c23b5c55d9dbb7a09cfff
+[I 00:07:14.617 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 00:07:14.684 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-4438-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=39d3e19e4436d035a8abc8bf7b4c23b5c55d9dbb7a09cfff
+     or http://127.0.0.1:8888/?token=39d3e19e4436d035a8abc8bf7b4c23b5c55d9dbb7a09cfff
+[W 00:07:17.600 LabApp] Could not determine jupyterlab build status without nodejs
+[W 00:07:21.190 LabApp] Notebook GTP1/Guia_1.ipynb is not trusted
+[I 00:07:22.393 LabApp] Kernel started: 2da1ca00-0fce-4ada-9b19-faa089fe37d8
+[I 00:07:22.416 LabApp] Kernel started: 60c558a7-7590-41c8-a3ef-5399d85c62b4
+[I 00:07:22.454 LabApp] Kernel started: 4a511e27-7f1a-4823-92a3-8e95952f64fc
+[I 00:21:26.265 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:22:04.770 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:24:05.021 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:24:20.914 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:26:21.249 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:28:21.492 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:28:25.878 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:28:44.409 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:29:53.041 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:30:28.203 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:30:53.573 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:31:13.072 LabApp] Saving file at /GTP3/Guia_3.ipynb
+[I 00:02:43.404 LabApp] Starting buffering for 2da1ca00-0fce-4ada-9b19-faa089fe37d8:cb9bec50-7f02-4af5-8aa2-2e10919737e1
+[I 00:02:43.404 LabApp] Starting buffering for 60c558a7-7590-41c8-a3ef-5399d85c62b4:4b710de6-2bc7-4789-96a3-35bdd690e921
+[I 00:02:43.406 LabApp] Starting buffering for 4a511e27-7f1a-4823-92a3-8e95952f64fc:dc417f3a-7c76-462f-b76e-88f613e71e5e
+[I 21:35:58.896 LabApp] JupyterLab extension loaded from /home/joaco/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:35:58.897 LabApp] JupyterLab application directory is /home/joaco/anaconda3/share/jupyter/lab
+[I 21:35:58.903 LabApp] Serving notebooks from local directory: /home/joaco/Desktop/joaco/facultad/BCI/Guías
+[I 21:35:58.903 LabApp] The Jupyter Notebook is running at:
+[I 21:35:58.903 LabApp] http://localhost:8888/?token=4cc488fbe75858603ee113ae870c28bdf42839e5a13df36d
+[I 21:35:58.903 LabApp]  or http://127.0.0.1:8888/?token=4cc488fbe75858603ee113ae870c28bdf42839e5a13df36d
+[I 21:35:58.904 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:35:59.051 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/joaco/.local/share/jupyter/runtime/nbserver-13622-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=4cc488fbe75858603ee113ae870c28bdf42839e5a13df36d
+     or http://127.0.0.1:8888/?token=4cc488fbe75858603ee113ae870c28bdf42839e5a13df36d
+[W 21:36:01.963 LabApp] Could not determine jupyterlab build status without nodejs
+[W 21:36:03.605 LabApp] Notebook GTP1/Guia_1.ipynb is not trusted
+[I 21:36:04.978 LabApp] Kernel started: 6a3200a0-6c02-4dfc-a5c6-0da74d7e77ee
+[I 21:36:05.005 LabApp] Kernel started: 0a7583d0-d95a-4818-84ac-dfed4b7f241c
+[I 21:36:05.073 LabApp] Kernel started: 4c8497ab-04f9-457c-a670-180bb6345e66
+[I 04:26:44.384 LabApp] Starting buffering for 4c8497ab-04f9-457c-a670-180bb6345e66:a4072fdb-981b-4d32-b2f8-736612d3fb83
+[I 04:26:44.386 LabApp] Starting buffering for 6a3200a0-6c02-4dfc-a5c6-0da74d7e77ee:b22b9310-645c-4c01-a768-ededc45d3056
+[I 04:26:44.387 LabApp] Starting buffering for 0a7583d0-d95a-4818-84ac-dfed4b7f241c:b5f04a1b-6c2d-43c4-b9b1-dae1133bbdf0
